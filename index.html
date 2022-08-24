@@ -1,0 +1,34 @@
+<script src="script.js"></script>
+<head>
+    <h1> Conversor de temperaturas </h1>
+    <p>Digite a temperatura que deseja converter e veja qual é seu valor nas outras escalas</p>
+</head>
+<body>
+    <div id="celsius">
+        <h2> Celsius </h2>
+        <label> Caso tenha a temperatura em Celsius e deseje saber seu valor nas outras escalas, digite aqui a temperatura que deseja converter: </label>
+        <input type=number id="tempCelsius"/>
+        <button type="submit" onclick = "converteCelsius()"> Converter </button>
+        <label> O valor convertido é: </label>
+        <output type=number id="valorCelsius"> </output>
+    </div>
+    <div id="farenheit">
+        <h2> Farenheit </h2>
+        <label> Caso tenha a temperatura em Farenheit e deseje saber seu valor nas outras escalas, digite aqui a temperatura que deseja converter: </label>
+        <input type=number id="tempFarenheit"/>
+        <button type="submit" onclick = "converteFarenheit()"> Converter </button>
+        <label> O valor convertido é: </label>
+        <output type=number id="valorFarenheit"> </output>
+    </div>
+    <div id="kelvin">
+        <h2> Kelvin </h2>
+        <label> Caso tenha a temperatura em Kelvin e deseje saber seu valor nas outras escalas, digite aqui a temperatura que deseja converter: </label>
+        <input type=number id="tempKelvin"/>
+        <button type="submit" onclick = "converteKelvin()"> Converter </button>
+        <label> O valor convertido é: </label>
+        <output type=number id="valorKelvin"> </output>
+    </div>
+</body>
+<footer>
+    <p> Created By Yasmin Dal Medico </p>
+</footer>
