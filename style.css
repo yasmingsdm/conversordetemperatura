@@ -1,0 +1,29 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section {
+column-count: 3;
+}
+
+h1, p {
+   text-align: center;
+}
+
+h1, h2{
+    color: purple
+}
+
+h2{
+    margin-top: -10px;
+}
+
+div{
+    padding: 15px;
+    border: 5px solid purple;
+}
+button{
+    transform: translateX(150px);
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+   }
